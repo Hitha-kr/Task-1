@@ -12,12 +12,12 @@ tools{
         }
         stage ("checkout") {
             steps {
-              echo "checking the aplication"   
+              echo "checking the application"   
             }
         }
         stage ("Build") {
             steps {
-              echo "Building the aplication"   
+              echo "Building the application"   
             }
         }
     }
